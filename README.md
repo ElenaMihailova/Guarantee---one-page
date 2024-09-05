@@ -1,0 +1,2 @@
+# Salebot-gpt
+Интеграция platformOpenAI
