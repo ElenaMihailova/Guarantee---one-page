@@ -53,7 +53,7 @@ const PasswordField: React.FC<PasswordFieldProps> = ({
               aria-label="toggle password visibility"
               onClick={handleClickShowPassword}
               edge="end"
-              sx={{ color: theme.palette.common.white }}
+              sx={{ color: theme.palette.secondary.main }}
             >
               {showPassword ? <VisibilityOff /> : <Visibility />}
             </IconButton>
