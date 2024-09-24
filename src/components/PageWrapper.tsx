@@ -26,9 +26,7 @@ const PageWrapper: React.FC<PageWrapperProps> = ({ children }) => {
 
   return (
     <Box sx={styles.root}>
-      <Container maxWidth="sm" sx={styles.container}>
-        {children}
-      </Container>
+      <Container sx={styles.container}>{children}</Container>
     </Box>
   );
 };

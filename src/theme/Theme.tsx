@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
   typography: {
-    fontFamily: 'Poppins, Arial, sans-serif',
+    fontFamily: "'Exo', sans-serif",
   },
   palette: {
     common: {
