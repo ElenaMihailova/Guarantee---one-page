@@ -5,15 +5,11 @@ interface PageWrapperProps {
   backgroundImage?: string;
 }
 
-const PageWrapper: React.FC<PageWrapperProps> = ({
-  children,
-  backgroundImage,
-}) => {
+const PageWrapper: React.FC<PageWrapperProps> = ({ children }) => {
   const theme = useTheme();
 
   const styles = {
     root: {
-      backgroundImage: `url(${backgroundImage || '../assets/back.jpg'})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       minHeight: '100vh',
@@ -23,10 +19,8 @@ const PageWrapper: React.FC<PageWrapperProps> = ({
       alignItems: 'center',
     },
     container: {
-      padding: 4,
       borderRadius: 2,
       color: theme.palette.common.white,
-      // backgroundColor: theme.palette.primary.light,
     },
   };
 

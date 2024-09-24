@@ -10,7 +10,7 @@ export const theme = createTheme({
       black: '#000',
     },
     primary: {
-      main: '#C0C0C0',
+      main: '#14ada9',
       light: '#E0E0E0',
       dark: '#A9A9A9',
       contrastText: '#4B164C',
@@ -31,27 +31,9 @@ export const theme = createTheme({
       paper: '#F5F5F5',
     },
     text: {
-      primary: '#4B164C',
-      secondary: '#808080',
+      primary: '#14ada9',
+      secondary: '#ff7ba3',
       disabled: '#B8B8B8',
-    },
-  },
-  components: {
-    MuiButton: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#C0C0C0',
-          borderRadius: '40px',
-          color: '#4B164C',
-          fontSize: '24px',
-          fontWeight: 500,
-          textTransform: 'none',
-          '&:hover': {
-            backgroundColor: '#4B164C',
-            color: '#FFFFFF',
-          },
-        },
-      },
     },
   },
 });
